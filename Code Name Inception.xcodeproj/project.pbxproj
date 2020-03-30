@@ -15,6 +15,9 @@
 		353D7D6624325E8200E1DCA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 353D7D6424325E8200E1DCA7 /* LaunchScreen.storyboard */; };
 		353D7D7124325E8300E1DCA7 /* Code_Name_InceptionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353D7D7024325E8300E1DCA7 /* Code_Name_InceptionTests.swift */; };
 		353D7D7C24325E8300E1DCA7 /* Code_Name_InceptionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353D7D7B24325E8300E1DCA7 /* Code_Name_InceptionUITests.swift */; };
+		353D7D8A24326A6B00E1DCA7 /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353D7D8924326A6B00E1DCA7 /* Subject.swift */; };
+		353D7D8C24326C7000E1DCA7 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353D7D8B24326C7000E1DCA7 /* Note.swift */; };
+		353D7D8E24327A5600E1DCA7 /* Crates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353D7D8D24327A5600E1DCA7 /* Crates.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		353D7D7724325E8300E1DCA7 /* Code Name InceptionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Code Name InceptionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		353D7D7B24325E8300E1DCA7 /* Code_Name_InceptionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Code_Name_InceptionUITests.swift; sourceTree = "<group>"; };
 		353D7D7D24325E8300E1DCA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		353D7D8924326A6B00E1DCA7 /* Subject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
+		353D7D8B24326C7000E1DCA7 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		353D7D8D24327A5600E1DCA7 /* Crates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crates.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				353D7D6224325E8200E1DCA7 /* Assets.xcassets */,
 				353D7D6424325E8200E1DCA7 /* LaunchScreen.storyboard */,
 				353D7D6724325E8200E1DCA7 /* Info.plist */,
+				353D7D8924326A6B00E1DCA7 /* Subject.swift */,
+				353D7D8B24326C7000E1DCA7 /* Note.swift */,
+				353D7D8D24327A5600E1DCA7 /* Crates.swift */,
 			);
 			path = "Code Name Inception";
 			sourceTree = "<group>";
@@ -259,9 +268,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				353D7D8C24326C7000E1DCA7 /* Note.swift in Sources */,
+				353D7D8A24326A6B00E1DCA7 /* Subject.swift in Sources */,
 				353D7D5E24325E7F00E1DCA7 /* ViewController.swift in Sources */,
 				353D7D5A24325E7F00E1DCA7 /* AppDelegate.swift in Sources */,
 				353D7D5C24325E7F00E1DCA7 /* SceneDelegate.swift in Sources */,
+				353D7D8E24327A5600E1DCA7 /* Crates.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
